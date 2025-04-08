@@ -1,0 +1,33 @@
+.containerContact {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.btn.custom-btn-primary {
+    background-color: var(--button);
+    color: #fff;
+    border-radius: 35px;
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn.custom-btn-primary:hover {
+    background-color: var(--button_hover);
+}
+
+.google-map iframe {
+    border-radius: 20px;
+}
+.openGoogleMaps{
+    color:var(--link_bar);
+    text-decoration: none;
+}
+@media (min-width: 1400px) {
+    .containerContact {
+        max-width: 1400px;
+    }
+}

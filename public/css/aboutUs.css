@@ -1,0 +1,178 @@
+
+/* Secțiune Introducere */
+.intro-section {
+    background-color: var(--light_pink);
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Misiune & Viziune */
+.mission-vision {
+    margin-bottom: 60px;
+}
+
+.sub-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--button_hover);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.mission-vision p {
+    font-size: 1.1rem;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* De ce să alegi salonul nostru */
+.why-choose-us {
+    margin-bottom: 60px;
+}
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--title_color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reason-card {
+    position: relative;
+    overflow: hidden;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.reason-card:hover {
+    transform: translateY(-10px);
+}
+
+.reason-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.reason-card h4 {
+    font-size: 1.6rem;
+    color: var(--button_hover);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.reason-card p {
+    font-size: 1.1rem;
+    color: var(--grey_text);
+    line-height: 1.7;
+}
+
+.reason-image:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* Galerie */
+.gallery-section {
+    margin-bottom: 60px;
+}
+
+.gallery-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--title_color);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+
+/* Buton Contact */
+.contact-button .btn-contact {
+    background-color: var(--button);
+    color: #fff;
+    padding: 18px 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-bottom: 50px;
+}
+
+.contact-button .btn-contact:hover {
+    background-color:var(--link_bar);
+}
+.moreAbout{
+    color:var(--link_bar);
+    text-decoration: none;
+}
+/* Responsivitate */
+@media (max-width: 768px) {
+    .reason-card {
+        margin-bottom: 20px;
+    }
+
+    .gallery-image {
+        height: 250px;
+    }
+}
+
+.carousel-item img {
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+.photo-counter p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.modal-header {
+    border-bottom: none;
+    float:right;
+}
+

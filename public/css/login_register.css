@@ -1,0 +1,99 @@
+
+    /* Stil pentru fundalul modalului */
+    .modal-content {
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        transition: all 0.3s ease;
+    }
+
+    /* Stil pentru titlu */
+    .modal-title {
+        font-size: 24px;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 30px;
+    }
+
+    /* Stil pentru butoane */
+    .btn-gold {
+        background-color: var(--button);
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        font-weight: 600;
+        padding: 12px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-gold:hover {
+        background-color: var(--button_hover);
+    }
+
+    .btn-light {
+        background-color: #f8f9fa;
+        color: #333;
+        border-radius: 25px;
+        padding: 12px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-light:hover {
+        background-color: #e2e6ea;
+    }
+
+    .btn-google {
+        background-color: #db4437;
+        color: white;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+
+    .btn-google:hover {
+        background-color: #c1351d;
+    }
+
+    /* Input personalizat */
+    .custom-input {
+        border-radius: 30px;
+        border: 1px solid #ddd;
+        padding: 12px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        transition: border-color 0.3s ease;
+    }
+
+    .custom-input:focus {
+        border-color: var(--title_color);
+        outline: none;
+    }
+
+    /* Link pentru recuperarea parolei și pentru înregistrare */
+    .text-muted {
+        color: #777 !important;
+    }
+
+    .flip-btn {
+        cursor: pointer;
+        font-weight: 600;
+        color: #ffd700;
+    }
+
+    .flip-btn:hover {
+        text-decoration: underline;
+    }
+
+    /* Stil pentru fundalul general al modalului */
+    .modal-body {
+        background: #f4f7fa;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Efect de hover pentru inputuri și butoane */
+    .form-control:focus, .btn:focus {
+        box-shadow: none;
+    }

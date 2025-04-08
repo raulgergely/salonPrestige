@@ -1,0 +1,189 @@
+
+.invalid-feedback {
+font-size: 17px;
+}
+/* Media query pentru dispozitive mai mici */
+@media (max-width: 768px) {
+.invalid-feedback {
+    font-size: 15px;
+}
+}
+
+/* Media query pentru dispozitive foarte mici (de exemplu telefoane) */
+@media (max-width: 480px) {
+.invalid-feedback {
+    font-size: 14px;
+}
+}
+
+/* Carduri pentru servicii și ore */
+.service-card, .hour-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.service-card:hover, .hour-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Calendar Flatpickr */
+#calendar-container {
+width: 100%; /* Asigură-te că calendarul se întinde pe toată lățimea */
+max-width: 10px; /* sau orice altă valoare care îți convine */
+}
+
+.flatpickr-calendar {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flatpickr-day.selected {
+    background-color:var(--button) !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+/* Buton de rezervare */
+.btn-modern {
+    background-color:var(--button);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-modern:hover {
+    background-color: var(--button);
+    transform: scale(1.05);
+}
+/* Carduri pentru servicii și ore */
+.service-card, .hour-card {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+padding: 15px;
+backdrop-filter: blur(10px);
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+border: 2px solid transparent;
+}
+
+/* Carduri hover */
+.service-card:hover, .hour-card:hover {
+transform: scale(1.05);
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil pentru cardurile selectate */
+.btn-check:checked + .service-card,
+.btn-check:checked + .hour-card {
+border-color: var(--button);
+box-shadow: var(--btn_checked_box_shadow);
+background: var(--btn_checked);
+color:black;
+
+}
+
+/* Calendar Flatpickr */
+#calendar-container {
+width: 100%;
+max-width: 0%; /* Asigură-te că calendarul se întinde pe toată lățimea */
+}
+
+.flatpickr-calendar {
+width: 100%;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flatpickr-day.selected {
+background-color:var(--button) !important;
+color: white !important;
+border-radius: 8px;
+}
+
+/* Buton de rezervare */
+.btn-modern {
+background-color:var(--button);
+color: white;
+padding: 12px 24px;
+border-radius: 8px;
+font-weight: bold;
+transition: 0.3s ease-in-out;
+}
+
+.btn-modern:hover {
+background-color:var(--button);
+transform: scale(1.05);
+}
+
+/* Ajustări responsive pentru carduri și butoane */
+@media (max-width: 767px) {
+/* Pentru ecrane mici (mobile) */
+.service-card {
+    margin-bottom: 15px; /* Ajustează această valoare după preferințe */
+}
+.service-card, .hour-card {
+    padding: 10px;
+    font-size: 14px; /* Micșorăm fontul pentru mobil */
+}
+
+.service-card i, .hour-card i {
+    font-size: 24px; /* Micșorăm dimensiunea iconițelor */
+}
+
+.col-md-2, .col-6 {
+    /* Modificăm coloanele pentru a ocupa mai mult spațiu pe mobile */
+    flex: 0 0 50%; /* Fiecare card va ocupa jumătate din lățimea */
+}
+
+.mb-4 {
+    margin-bottom: 1rem; /* Micșorăm marginile pentru mobil */
+}
+
+.mb-3 {
+    margin-bottom: 1rem; /* Micșorăm marginile pentru mobil */
+}
+
+#calendar-container {
+    max-width: 100%;
+    width: 0%;
+}
+}
+
+@media (min-width: 768px) {
+/* Pentru ecrane medii și mari (tablete și desktop) */
+.col-md-2, .col-6 {
+    flex: 0 0 20%; /* Fiecare card va ocupa 20% din lățimea pe desktop */
+}
+
+.service-card i, .hour-card i {
+    font-size: 30px; /* Mărim dimensiunea iconițelor pentru desktop */
+}
+}
+.flex-wrap-gap {
+    gap: 1.5rem; /* 1rem pe verticală, 1.5rem pe orizontală */
+}
+.flex-wrap-gap-calendar {
+    gap: 0.4rem; /* 1rem pe verticală, 1.5rem pe orizontală */
+}

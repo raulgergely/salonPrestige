@@ -1,0 +1,131 @@
+/* Titluri principale (h2 și h3) cu fonturi mai stilate */
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--title_color); /* Culoare galbenă sofisticată */
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Textul de tip lead, pentru un aspect rafinat */
+.lead {
+    font-size: 1.2rem;
+    color: var(--grey_text);
+    margin-bottom: 30px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/* Aliniere textului la centru */
+.text-center {
+    text-align: center;
+}
+
+
+/* Listă fără puncte de la început */
+.list-unstyled {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+}
+
+/* Elementele din listă cu margini și stilizare */
+.list-unstyled li {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+/* Stilizarea textului din lista cu strong */
+.list-unstyled li strong {
+    font-weight: 700;
+    color: var(--button_hover); /* Culoare pentru elementele importante */
+}
+
+/* Stilizare pentru imagini sau alte medii (dacă vrei să adaugi imagini) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Secțiuni de tip card pentru fiecare tip de machiaj */
+.card {
+    border: 6px solid black;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Umbre subtile pentru carduri */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efect de levitație pe carduri */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Umbre mai pronunțate */
+    border:6px solid grey;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover; /* Imaginea se ajustează corespunzător */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Ajustări pentru layout-ul mobil */
+@media (max-width: 767px) {
+    .col-md-6 {
+        padding: 15px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+
+
+
+/* Secțiune cu imagini de tip galeria de machiaj */
+img.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Îmbunătățiri pentru butonul de programare */
+.btn-primary {
+    background-color: var(--button); /* Culoare accentuată pentru buton */
+    color: white;
+    font-size: 1.1rem;
+    padding: 14px 28px;
+    border-radius: 50px; /* Marginile mai rotunjite */
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Adăugăm o umbră subtilă */
+}
+
+/* Efect de hover pe butonul principal */
+.btn-primary:hover {
+    background-color: var(--button_hover); /* Culoare galbenă la hover */
+    color: var(--grey_text); /* Schimbăm culoarea textului */
+    transform: translateY(-3px); /* Efect de levitație */
+}

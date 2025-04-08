@@ -1,0 +1,110 @@
+/* Stilizare footer */
+.footer {
+    background-color:var(--bar);
+    color: var(--link_bar);
+    padding: 40px 0;
+    position: relative;
+    z-index: 1000;
+    margin-top: auto;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+}
+
+/* Text titluri */
+.footer h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* Linkuri hover */
+.footer a {
+    text-decoration: none;
+    color:var(--link_bar);
+    transition: all 0.3s ease;
+}
+
+.footer a:hover {
+    color: var(--link_bar_hover); /* Culoare galbenă la hover */
+}
+
+/* Efect hover pe iconuri sociale */
+.footer .social-icon {
+    font-size: 24px;
+    margin-right: 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    transform: scale(1.2);
+    color: var(--link_bar_hover); /* Schimbă culoarea la hover */
+}
+
+/* Efect hover pe linkuri */
+.footer .hover-effect:hover {
+    color: var(--link_bar_hover);
+}
+
+/* Linie de separare */
+.footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Text copyright */
+.footer .text-center p {
+    font-size: 0.9rem;
+    color:var(--link_bar);
+}
+
+/* Butonul "Sus" */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--title_color); /* Galben strălucitor */
+    color: var(--red_badge);
+    border-radius: 50%;  /* Face butonul perfect rotund */
+    font-size: 2rem; /* Mărire font pentru vizibilitate */
+    width: 60px; /* Lățime fixă */
+    height: 60px; /* Înălțime fixă (trebuie să fie egală cu lățimea pentru rotunjire perfectă) */
+    padding: 10px; /* Padding mai mic pentru a lăsa săgeata să se centreze bine */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adăugare umbră pentru un efect de adâncire */
+    transition: all 0.3s ease; /* Tranziție lină pentru efectele de hover */
+    z-index: 1001;
+    display: none; /* Butonul va fi ascuns în mod default */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* Schimbă cursorul la pointer */
+    text-align: center; /* Aliniază icon-ul la centru */
+}
+
+/* Adăugare săgeată sugestivă */
+#back-to-top:before {
+    content: '↑'; /* Săgeată sus */
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+/* Efect de hover */
+#back-to-top:hover {
+    background-color: var(--button_hover); /* Culoare schimbată la hover (roz roșu) */
+    color:white;
+    transform: scale(1.2); /* Mărire ușoară pentru efect animat */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Umbra mai intensă când hover */
+}
+
+#back-to-top:hover i {
+    transform: translateY(-5px); /* Efect pentru icon, săgeata se mișcă ușor */
+}
+
+/* Efect de focus */
+#back-to-top:focus {
+    outline: none; /* Elimină outline-ul default */
+    animation: pulse 1s infinite; /* Pulsare ușoară la focus */
+}

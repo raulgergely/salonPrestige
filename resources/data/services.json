@@ -1,0 +1,129 @@
+[
+    {
+        "name": {
+            "ro":"Machiaj de zi",
+            "en":"Day makeup"
+        },
+        "desc": {
+            "ro":"Un look fresh și natural.",
+            "en":"A fresh and natural look."
+        },
+        "long_desc": {
+            "ro":"Machiajul de zi este perfect pentru activitățile zilnice, oferindu-ți un aspect proaspăt și natural. Ideal pentru birou sau întâlniri casual, acest machiaj subliniază trăsăturile tale într-un mod subtil și elegant.",
+            "en":"Day makeup is perfect for daily activities, giving you a fresh and natural look. Ideal for the office or casual meetings, this makeup subtly and elegantly enhances your features."
+        },
+        "detailed_desc": {
+            "ro":"Machiajul de zi urmărește obținerea unui look natural și proaspăt, perfect pentru activitățile zilnice, inclusiv birou sau întâlniri casual. Procesul începe cu curățarea și hidratarea tenului pentru a pregăti o bază netedă. Aplicăm un primer care uniformizează textura pielii și prelungește rezistența machiajului.\n\nFondul de ten utilizat este ușor, cu o acoperire medie, care lasă pielea să respire și conferă un aspect radiant. Corectorul estompează cearcănele și imperfecțiunile, iar pudra fină fixează machiajul, prevenind apariția luciului excesiv.\n\nPentru ochi, se aplică umbre în tonuri neutre care luminează privirea, împreună cu un strat subțire de mascara pentru definirea genelor. Sprâncenele sunt aranjate și definite discret pentru a încadra perfect privirea. În final, aplicăm blush pentru a reda prospețimea și un balsam sau ruj în nuanțe naturale pentru un look final armonios. Procedura durează aproximativ 30-45 de minute, oferindu-ți un look fresh și încrezător pentru întreaga zi.",
+            "en":"Day makeup aims to achieve a natural and fresh look, perfect for daily activities, including the office or casual meetings. The process starts with cleansing and hydrating the skin to create a smooth base. A primer is applied to even out the skin texture and extend the longevity of the makeup.The foundation used is light with medium coverage, allowing the skin to breathe while giving a radiant appearance. The concealer hides dark circles and imperfections, while the fine powder sets the makeup, preventing excessive shine.For the eyes, neutral-toned shadows are applied to brighten the gaze, along with a thin layer of mascara to define the lashes. The eyebrows are subtly shaped and defined to frame the eyes perfectly. Finally, blush is applied to add freshness, and a balm or lipstick in natural shades completes the harmonious look. The procedure takes approximately 30-45 minutes, giving you a fresh and confident look for the entire day."
+        },
+        "price": "150 RON",
+        "image": "images/makeupday.jpg",
+        "link": "dayMakeup"
+    },
+    {
+        "name":{
+            "ro":"Machiaj de seară",
+            "en":"Evening makeup"
+        } ,
+        "desc":{
+            "ro":"Eleganță pentru evenimente.",
+            "en":"Elegance for events."
+        } ,
+        "long_desc":{
+            "ro":"Pentru serile speciale, machiajul nostru de seară adaugă o notă de eleganță și rafinament. Utilizăm produse de înaltă calitate pentru a crea un look sofisticat care să te facă să strălucești la orice eveniment.",
+            "en":"For special evenings, our evening makeup adds a touch of elegance and refinement. We use high-quality products to create a sophisticated look that will make you shine at any event."
+        },
+        "detailed_desc":{
+            "ro":"Machiajul de seară este ideal pentru evenimente speciale, petreceri sau cine elegante, unde dorești să strălucești cu adevărat. Procesul începe cu o consultare pentru a înțelege preferințele clientei. Tenul este curățat și hidratat intens, urmat de aplicarea unui primer care conferă uniformitate și rezistență machiajului.\n\nFondul de ten aplicat are o acoperire medie spre completă pentru un aspect flawless. Corectorul acoperă imperfecțiunile, iar contouring-ul subțiază trăsăturile feței, în timp ce iluminatorul adaugă luminozitate în punctele cheie: pomeți, arcadă sprânceană și colțurile interioare ale ochilor.\n\nPentru ochi, utilizăm umbre intense și tehnici precum smokey eyes, cu nuanțe închise sau glitter, pentru a crea un look dramatic. Genele false oferă un plus de volum și intensitate. Buzele sunt evidențiate cu rujuri bogate sau metalice, în funcție de eveniment. Procedura durează aproximativ 1-1.5 ore, iar machiajul rezistă întreaga seară, fără necesitatea retușurilor.",
+            "en":"Evening makeup is ideal for special events, parties, or elegant dinners, where you want to truly shine. The process begins with a consultation to understand the client's preferences. The skin is thoroughly cleansed and hydrated, followed by the application of a primer that ensures uniformity and long-lasting makeup.\n\nThe foundation applied offers medium to full coverage for a flawless look. The concealer covers imperfections, while contouring slims the facial features, and the highlighter adds brightness to key points: cheekbones, brow bone, and the inner corners of the eyes.\n\nFor the eyes, we use bold shades and techniques such as smokey eyes with dark tones or glitter to create a dramatic look. False lashes add volume and intensity. The lips are highlighted with rich or metallic lipsticks, depending on the event. The process takes approximately 1 to 1.5 hours, and the makeup lasts throughout the evening without the need for touch-ups."
+        } ,
+        "price": "200 RON",
+        "image": "images/makeup3.jpg",
+        "link": "nightMakeup"
+    },
+    {
+        "name":{
+            "ro":"Extensii gene",
+            "en":"Eyelash extensions"
+        } ,
+        "desc": {
+            "ro":"Gene voluminoase și naturale.",
+            "en":"Voluminous and natural lashes."
+        },
+        "long_desc":{
+            "ro":"Extensiile noastre pentru gene oferă un volum spectaculos și un efect natural. Folosim tehnici personalizate pentru a asigura confort și o durată lungă de viață, accentuând frumusețea naturală a ochilor tăi.",
+            "en":"Our eyelash extensions provide spectacular volume and a natural effect. We use personalized techniques to ensure comfort and long-lasting results, enhancing the natural beauty of your eyes."
+        } ,
+        "detailed_desc":{
+            "ro":"Extensiile de gene sunt perfecte pentru a obține gene lungi, curbate și voluminoase fără efort zilnic. Procedura începe cu o consultație pentru a alege lungimea și volumul potrivit în funcție de forma ochilor și preferințele clientei.\n\nGenele pot fi aplicate fir cu fir pentru un aspect natural sau în tehnica volumetrică pentru un efect dramatic. Curățăm zona oculară și aplicăm un primer pentru a asigura aderența adezivului. Fiecare extensie este aplicată individual pe genele naturale, cu atenție pentru confort și rezistență.\n\nProcesul durează 1.5-2 ore. Extensiile oferă un efect spectaculos, eliminând necesitatea utilizării zilnice a rimelului și economisind timp. Rezultatul este un look sofisticat, deschis și luminos, cu gene care rezistă 3-4 săptămâni, în funcție de îngrijire.",
+            "en":"Eyelash extensions are perfect for achieving long, curled, and voluminous lashes without the daily effort. The procedure begins with a consultation to choose the appropriate length and volume based on the shape of your eyes and your preferences.\n\nThe lashes can be applied individually for a natural look or using the volume technique for a dramatic effect. We clean the eye area and apply a primer to ensure adhesive adhesion. Each extension is individually applied to the natural lashes, with attention to comfort and durability.\n\nThe process takes 1.5-2 hours. The extensions provide a stunning effect, eliminating the need for daily mascara use and saving time. The result is a sophisticated, open, and bright look, with lashes that last 3-4 weeks, depending on care."
+        } ,
+        "price": "250 RON",
+        "image": "images/eyelash.jpg",
+        "link": "eyelashExtensions"
+    },
+    {
+        "name":{
+            "ro":"Laminare sprâncene",
+            "en":"Brow lamination"
+        } ,
+        "desc":{
+            "ro":"Sprâncene perfect definite.",
+            "en":"Perfectly defined eyebrows."
+        } ,
+        "long_desc":{
+            "ro":"Laminarea sprâncenelor este procedura ideală pentru sprâncene bine definite și aranjate. Tratamentul netezește firele, oferind un aspect curat și bine conturat, cu efecte ce durează câteva săptămâni.",
+            "en":"Eyebrow laminating is the ideal procedure for well-defined and groomed brows. The treatment smooths the hairs, giving a clean and well-contoured look, with results that last for several weeks."
+        },
+        "detailed_desc":{
+            "ro":"Laminarea sprâncenelor este o procedură care aranjează și netezește firele pentru un aspect curat și bine definit. Procesul începe cu curățarea zonei și aplicarea unui gel care ajută la poziționarea firelor în direcția dorită.\n\nFirele sunt fixate într-o poziție naturală cu ajutorul unei soluții speciale care le face mai maleabile. După această etapă, zona poate fi vopsită pentru a evidenția culoarea sprâncenelor. Procedura durează aproximativ 45-60 de minute, iar rezultatul este un look îngrijit, elegant și bine conturat pentru 4-6 săptămâni. Laminarea ajută la economisirea timpului în rutina zilnică și asigură o apariție impecabilă.",
+            "en":"Eyebrow laminating is a procedure that arranges and smooths the hairs for a clean and well-defined look. The process begins with cleaning the area and applying a gel that helps position the hairs in the desired direction.The hairs are set in a natural position using a special solution that makes them more flexible. After this step, the area can be tinted to highlight the color of the brows. The procedure takes about 45-60 minutes, and the result is a neat, elegant, and well-contoured look for 4-6 weeks. Laminating helps save time in your daily routine and ensures a flawless appearance."
+        } ,
+        "price": "180 RON",
+        "image": "images/brow_lamination.jpg",
+        "link": "eyebrowLamination"
+    },
+    {
+        "name":{
+            "ro":"Micropigmentare buze",
+            "en":"Micropigmentation for lips"
+        } ,
+        "desc": {
+            "ro":"Culoare naturală și contur perfect.",
+            "en":"Natural color and perfect contour."
+        },
+        "long_desc":{
+            "ro":"Micropigmentarea buzelor îți oferă un contur perfect și o culoare naturală, cu un efect de durată. Ideal pentru a economisi timp zilnic, acest tratament asigură un look impecabil în orice moment al zilei.",
+            "en":"Lip micropigmentation provides a perfect contour and natural color, with a long-lasting effect. Ideal for saving daily time, this treatment ensures a flawless look at any time of the day."
+        },
+        "detailed_desc":{
+            "ro":"Micropigmentarea buzelor este o procedură estetică semi-permanentă care redefinește conturul buzelor și le oferă culoare intensă și uniformă. Începe cu o consultație în care stabilim forma și nuanța potrivită tenului și preferințelor tale.\n\nCurățăm și pregătim zona buzelor, aplicând un anestezic local pentru confort maxim. Tehnica implică aplicarea pigmentului specializat cu un aparat electric sau manual, strat cu strat, pentru un rezultat uniform și natural.\n\nProcedura durează aproximativ 60-90 de minute, iar efectul durează între 1-3 ani, în funcție de tipul de piele și îngrijire. Rezultatul oferă buze perfect conturate, cu o culoare vibrantă, care economisește timp și elimină necesitatea retușurilor zilnice. Este important să urmezi recomandările post-procedură pentru a menține aspectul impecabil.",
+            "en":"Lip micropigmentation is a semi-permanent aesthetic procedure that redefines the lip contour and provides intense, even color. The process begins with a consultation to determine the shape and shade that best suit your skin tone and preferences.We clean and prepare the lip area, applying a local anesthetic for maximum comfort. The technique involves applying specialized pigment using an electric or manual device, layer by layer, to achieve an even and natural result.The procedure takes about 60-90 minutes, and the effect lasts between 1-3 years, depending on skin type and aftercare. The result provides perfectly defined lips with vibrant color, saving time and eliminating the need for daily touch-ups. It's important to follow aftercare instructions to maintain a flawless appearance."
+        } ,
+        "price": "500 RON",
+        "image": "images/lip.jpg",
+        "link": "lipMicropigmentation"
+    },
+    {
+        "name":{
+            "ro":"Pensat + Laminare + Vopsit",
+            "en":"Eyebrow Shaping + Lamination + Tinting"
+        } ,
+        "desc":{
+            "ro":"Definire intensă pentru sprâncene.",
+            "en":"Intense definition for eyebrows."
+        },
+        "long_desc":{
+            "ro": "Acest pachet complet îți transformă sprâncenele, oferindu-le o definire intensă și un look perfect aranjat. Procedurile includ pensatul, laminarea pentru netezire și vopsirea pentru un aspect natural și bine conturat.",
+            "en":"This complete package transforms your eyebrows, giving them intense definition and a perfectly groomed look. The procedures include threading, lamination for smoothness, and tinting for a natural, well-defined appearance."
+        },
+        "detailed_desc":{
+            "ro": "Pachetul complet pentru sprâncene include pensatul pentru definire, laminarea pentru netezire și vopsirea pentru un look perfect conturat. Este ideal pentru persoanele care doresc un aspect îngrijit și sofisticat.\n\nProcedura începe cu pensarea, care elimină firele rebele și definește forma naturală a sprâncenelor. Se folosește tehnica personalizată pentru fiecare clientă, pentru a obține simetrie și echilibru facial optim.\n\nUrmătorul pas este laminarea, care implică aplicarea unui gel special pentru a netezi firele de păr și a le poziționa uniform. Acest pas oferă sprâncenelor un aspect aranjat și voluminos, cu o durată de până la 6-8 săptămâni.\n\nÎn final, sprâncenele sunt vopsite cu o nuanță adaptată tonului pielii și părului natural, accentuând frumusețea naturală a feței. Întreg procesul durează aproximativ 60 de minute, iar efectul oferă sprâncene bine definite, pline de volum și simetrie, cu o durată de până la 6 săptămâni. Procedura este ideală pentru a economisi timp în rutina zilnică și pentru un aspect îngrijit în orice moment.",
+            "en":"The complete eyebrow package includes threading for definition, lamination for smoothness, and tinting for a perfectly contoured look. It’s ideal for those who want a well-groomed and sophisticated appearance.The procedure begins with threading, which removes unruly hairs and defines the natural shape of the eyebrows. A personalized technique is used for each client to achieve symmetry and optimal facial balance.The next step is lamination, where a special gel is applied to smooth the hairs and position them evenly. This step gives the eyebrows a well-arranged and voluminous look, lasting up to 6-8 weeks.Finally, the eyebrows are tinted with a shade adapted to the skin and natural hair tone, enhancing the natural beauty of the face. The entire process takes approximately 60 minutes, and the result provides well-defined, voluminous, and symmetrical eyebrows that last up to 6 weeks. The procedure is perfect for saving time in your daily routine and for a polished look at any moment."
+        },
+        "price": "200 LEI",
+        "old_price": "240 LEI",
+        "image": "images/pozaservices.jpg",
+        "link": "eyebrowShapingLaminationTinting"
+    }
+]

@@ -1,0 +1,103 @@
+/* Modalul personalizat */
+.custom-modal {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.5s ease-out;
+}
+
+/* Header elegant */
+.modal-header {
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0;
+    border-radius: 15px 15px 0 0;
+    position: relative; /* Adăugat pentru ca butonul de close să fie poziționat corect */
+}
+
+.modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+
+/* Text */
+.modal-body p {
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Butoane */
+.custom-btn-primary {
+    background: linear-gradient(135deg, #e4a2a2, #e14f4f);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px 24px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn-primary:hover {
+    background: linear-gradient(135deg, #da6969, #df2727);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Buton secundar */
+.custom-btn-secondary {
+    background: #f1f1f1;
+    color: #333;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px 24px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-btn-secondary:hover {
+    background: #e0e0e0;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between; /* Un buton în stânga, altul în dreapta */
+    align-items: center; /* Asigură alinierea corectă pe verticală */
+    padding: 10px 20px; /* Adaugă puțin spațiu între butoane și margini */
+}
+
+/* Animație la apariție */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsivitate pe mobil */
+@media (max-width: 768px) {
+    .modal-title {
+        font-size: 20px;
+    }
+
+    .custom-btn-primary, .custom-btn-secondary {
+        padding: 10px 20px;
+    }
+}

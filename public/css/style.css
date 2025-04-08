@@ -1,0 +1,245 @@
+:root {
+    --gold: #c9a063;
+    --dark: #1a1a1a;
+    --light: #f6f0e1;
+    --bar:#f4e1d2;
+    --link_bar:#9c1c1c;
+    --link_bar_hover:#6e0b0b;
+    --light_pink:#ffd1d1;
+    --button:#e69b9b;
+    --button_hover:#d47373;
+    --title_color:#e3b05c;
+    --red_badge:#ff3860;
+    --old_price:#858181;
+    --card_services_back:#ffd0d0;
+    --form_bg:#f0e5c5;
+    --form_bg_foocus: rgba(230, 155, 155, 0.2);
+    --form_foocus_box_shadow: 0 0 20px rgba(230, 155, 155, 0.7);
+    --btn_checked: rgba(230, 155, 155, 0.6);
+    --btn_checked_box_shadow:0 0 20px rgba(153, 35, 114, 0.7);
+    --grey_text:#555;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Întreaga înălțime a paginii */
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--light);
+
+}
+
+.icon-images{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.form-control{
+    background-color: var(--form_bg);
+    font-family: 'Montserrat', serif;
+}
+ .form-control:focus{
+    border-color: var(--button);
+    box-shadow:var(--form_foocus_box_shadow);
+    background: var(--form_bg_foocus);
+    font-family: 'Montserrat', serif;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.hero {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.hero-content{
+    z-index:10;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:30px;
+    clip-path: polygon(50% 0%, 0% 20%, 0% 80%, 50% 100%, 100% 80%, 100% 20%)
+}
+/* Navbar Transparent Elegant */
+
+
+/* Stil pentru butonul de cont */
+.navbar .btn-outline-light {
+    border-radius: 30px;
+    padding: 12px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********modal****/
+
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+.modal-content{
+    background-color: white !important;
+}
+/* 🔹 Stil pentru butoane */
+
+
+/* 🔹 Wrapper pentru efectul de flip */
+/* 🔹 Stil general */
+.modal-content-wrapper {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+/* 🔹 Login și Register Panels */
+.modal-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+/* 🔹 Login - poziția inițială */
+.modal-login {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+}
+
+/* 🔹 Register - inițial ascuns în spate */
+.modal-register {
+    transform: translateX(100%) scale(0.8);
+    opacity: 0;
+}
+
+/* 🔹 Activează animația */
+.flip-active .modal-login {
+    transform: translateX(-100%) scale(0.8);
+    opacity: 0;
+}
+
+.flip-active .modal-register {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+}
+/* 🔹 Inputuri premium */
+.custom-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid var(--gray);
+    background: var(--gray);
+    transition: 0.3s;
+}
+
+.custom-input:focus {
+    border-color: var(--gold);
+    background: var(--light);
+    box-shadow: 0 0 10px rgba(201, 160, 99, 0.3);
+}
+
+/* 🔹 Butoane */
+/* Stilizarea butonului */
+/* Stilizare generală a butonului */
+
+
+.btn-gold {
+    background-color: var(--title_color);
+    color: white;
+    padding: 12px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-gold:hover {
+    background-color: #fdc160;
+}
+
+/* 🔹 Buton Google */
+.btn-google {
+    background: var(--light);
+    color: black;
+    border: 1px solid var(--gray);
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.btn-google:hover {
+    background: var(--gray);
+}
+
+/* 🔹 Linkuri */
+.text-gold {
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.text-gold:hover {
+    text-decoration: underline;
+}
+
+
+
+/* footer */
+
+
+/* Efect de pulsare pentru focus */
+@keyframes pulse {
+    0% {
+        transform: scale(1.2);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+@media (max-width: 768px) {
+    .logo{
+        font-size: 30px;
+    }
+}
+
