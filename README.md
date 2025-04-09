@@ -1,6 +1,6 @@
-# Glamour Beauty Salon
+# Salon Prestige
 
-**Glamour Beauty Salon** is a modern web application designed to showcase and manage the services offered by our makeup salon. The platform allows clients to explore available services, view our portfolio, and schedule appointments online.
+**Salon Prestige** is a modern web application designed to showcase and manage the services offered by our makeup salon. The platform allows clients to explore available services, view our portfolio, and schedule appointments online.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Overview
 
-Glamour Beauty Salon aims to provide an enjoyable and efficient online experience for clients seeking our makeup services. The application facilitates access to service information, enables online bookings, and offers a gallery showcasing our work.
+Salon Prestige aims to provide an enjoyable and efficient online experience for clients seeking our makeup services. The application facilitates access to service information, enables online bookings, and offers a gallery showcasing our work.
 
 ![Screenshot of the homepage](public/images/salon.png)
 
@@ -31,13 +31,13 @@ Glamour Beauty Salon aims to provide an enjoyable and efficient online experienc
 
 -   **Front-end**: Built with HTML5, CSS3, and JavaScript to create a dynamic and engaging user interface.
 
--   **Back-end**: Powered by Node.js and Express.js, providing a robust and scalable server-side environment.
+-   **Back-end**: Powered by PHP and Laravel, providing a robust and scalable server-side environment.
 
--   **Database**: Utilizes MongoDB for efficient and flexible data storage, handling client information and appointment schedules seamlessly.
+-   **Database**: Utilizes MysqlDB for efficient and flexible data storage, handling client information and appointment schedules seamlessly.
 
 ## Demo
 
-You can try a live demo of the Glamour Beauty Salon application by visiting the following link:
+You can try a live demo of the Salon Prestige application by visiting the following link:
 
 [Live Demo](http://project1.gergelyraul.ro)
 
@@ -57,6 +57,6 @@ Once the app is running, users can:
 
 For inquiries or further information, please reach out to us through the following channels:
 
--   **Email**: [contact@glamourbeautysalon.com](mailto:contact@glamourbeautysalon.com)
--   **Phone**: (123) 456-7890
--   **Website**: [www.glamourbeautysalon.com](http://www.glamourbeautysalon.com)
+-   **Email**: [raulgergely14@gmail.com](mailto:raulgergely14@gmail.com)
+-   **Phone**: (+40) 749 141 491
+-   **Website**: [www.project1.gergelyraul.ro](http://www.project1.gergelyraul.ro)
