@@ -66,7 +66,8 @@ Route::get('/produse-calitate', [QualityProductsController::class, 'index'])->na
 
 Route::get('lang/{lang}', function ($lang) {
     if (in_array($lang, ['ro', 'en'])) {
-        session()->put('locale', $lang);
+        // Setează limba în cookie pentru 30 de zile
+        cookie()->queue('locale', $lang, 60 * 24 * 30); // 30 zile
     }
     return redirect()->back();
 })->name('lang.switch');

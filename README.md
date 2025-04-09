@@ -1,66 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Glamour Beauty Salon
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**Glamour Beauty Salon** is a modern web application designed to showcase and manage the services offered by our makeup salon. The platform allows clients to explore available services, view our portfolio, and schedule appointments online.
 
-## About Laravel
+## Table of Contents
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   [Overview](#overview)
+-   [Features](#features)
+-   [Technologies Used](#technologies-used)
+-   [Demo](#demo)
+-   [Usage](#usage)
+-   [Contact](#contact)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Overview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Glamour Beauty Salon aims to provide an enjoyable and efficient online experience for clients seeking our makeup services. The application facilitates access to service information, enables online bookings, and offers a gallery showcasing our work.
 
-## Learning Laravel
+![Screenshot of the homepage](public/images/salon.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+-   **Service Presentation**: Detailed descriptions of the services offered, including pricing and duration, allowing clients to make informed decisions.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   **Photo Gallery**: A curated portfolio displaying high-quality images of previous work, demonstrating our expertise and style.
 
-## Laravel Sponsors
+-   **Online Appointments**: An intuitive booking system that enables clients to schedule appointments at their convenience, with automated confirmations and reminders.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+-   **Responsive Design**: A mobile-friendly layout that ensures optimal viewing and interaction across a wide range of devices.
 
-### Premium Partners
+## Technologies Used
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+-   **Front-end**: Built with HTML5, CSS3, and JavaScript to create a dynamic and engaging user interface.
 
-## Contributing
+-   **Back-end**: Powered by Node.js and Express.js, providing a robust and scalable server-side environment.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+-   **Database**: Utilizes MongoDB for efficient and flexible data storage, handling client information and appointment schedules seamlessly.
 
-## Code of Conduct
+## Demo
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+You can try a live demo of the Glamour Beauty Salon application by visiting the following link:
 
-## Security Vulnerabilities
+[Live Demo](http://project1.gergelyraul.ro)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Explore the features, browse services, view the gallery, and schedule appointments directly from the demo site!
 
-## License
+## Usage
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Once the app is running, users can:
+
+-   Browse and read about available makeup services.
+
+-   View the image gallery for inspiration.
+
+-   Book appointments directly through the website.
+
+## Contact
+
+For inquiries or further information, please reach out to us through the following channels:
+
+-   **Email**: [contact@glamourbeautysalon.com](mailto:contact@glamourbeautysalon.com)
+-   **Phone**: (123) 456-7890
+-   **Website**: [www.glamourbeautysalon.com](http://www.glamourbeautysalon.com)
