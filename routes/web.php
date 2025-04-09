@@ -65,9 +65,10 @@ Route::get('/despre-noi', [AboutUsController::class, 'index'])->name('aboutUs');
 Route::get('/produse-calitate', [QualityProductsController::class, 'index'])->name('qualityProducts');
 
 Route::get('lang/{lang}', function ($lang) {
+    // Verifică dacă limba aleasă este validă
     if (in_array($lang, ['ro', 'en'])) {
-        // Setează limba în cookie pentru 30 de zile
-        cookie()->queue('locale', $lang, 60 * 24 * 30); // 30 zile
+        // Salvează limba în sesiune
+        session(['locale' => $lang]);
     }
     return redirect()->back();
 })->name('lang.switch');
