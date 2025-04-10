@@ -26,8 +26,7 @@
             <div class="d-flex align-items-center">
                 <div class="dropdown">
                     <button class="btn btn-outline-dark dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                        <!-- Verifică ce limbă este selectată din sesiune -->
-                        @if(session('locale') == 'ro')
+                         @if(session('locale') == 'ro')
                             <img src="{{ asset('images/flags/ro.jpg') }}" alt="Română" class="me-2" width="20" height="15">
                         @else
                             <img src="{{ asset('images/flags/en.jpg') }}" alt="English" class="me-2" width="20" height="15">

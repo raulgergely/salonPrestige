@@ -75,3 +75,4 @@ Route::get('lang/{lang}', function ($lang) {
 
 //errors
 Route::get('/access-denied', [App\Http\Controllers\ErrorController::class, 'accessDenied'])->name('access.denied');
+

@@ -1,8 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.error')
 
 @section('content')
-    <div class="container mt-5">
-        <div class="text-center">
+    <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-4 text-center">
             <h2 class="text-danger" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Pagina nu a fost găsită!</h2>
             <p class="lead text-muted" style="font-size: 1.2rem;">Îmi pare rău, dar pagina pe care o cauți nu există.</p>
 
@@ -17,3 +17,4 @@
         </div>
     </div>
 @endsection
+

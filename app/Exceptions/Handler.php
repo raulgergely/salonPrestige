@@ -38,14 +38,13 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
-        $localeCookie = $request->cookie('locale');
         // Verifică dacă excepția este de tipul HttpException (pentru 4xx și 5xx)
         if ($exception instanceof HttpException) {
             $statusCode = $exception->getStatusCode();
             // Folosim switch pentru a verifica tipul de eroare
             switch ($statusCode) {
                 case 404:
-                    return response()->view('errors.404', ["cookie" => $localeCookie], 404);
+                    return response()->view('errors.404', [], 404);
                 case 500:
                     return response()->view('errors.500', [], 500);
                 case 403:

@@ -10,4 +10,9 @@ return [
     'error_401_login_prompt' => "Autentifică-te pentru a avea acces.",
     'error_401_section_restricted' => "Te rugăm să te autentifici pentru a accesa această secțiune a site-ului.",
     'error_401_login_now' => "Autentifică-te.",
+    '404_not_found' => "Pagina nu a fost găsită!",
+    '404_page_not_exist' => "Îmi pare rău, dar pagina pe care o cauți nu există.",
+    '404_back_home' => "Vrei să te întorci pe pagina pricipala?",
+    '404_click_home' => "Poți naviga înapoi pe site prin apăsarea butonului de mai jos.",
+    '404_btn_home' => "Înapoi la pagina principala",
 ];
